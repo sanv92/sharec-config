@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "commit": "npx git-cz",
+    "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\""
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "4.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "*.{ts,tsx,js,jsx,mjs}": [
+    "prettier --write",
+    "git add"
+  ],
+  "{*.json,.huskyrc,.prettierrc,.lintstagedrc,.eslintrc}": [
+    "prettier --write --parser json",
+    "git add"
+  ]
+}
