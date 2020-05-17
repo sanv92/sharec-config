@@ -1,8 +1,11 @@
 {
-  "name": "sharec-config",
+  "name": "@sanv/sharec-config",
   "version": "1.0.0",
   "description": "Store JavaScript configs in one place and share between projects without any pain",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "postinstall": "sharec"
   },
@@ -15,6 +18,12 @@
   },
   "homepage": "https://github.com/SanderV1992/sharec-config#readme",
   "license": "ISC",
+  "keywords": [
+    "sharec",
+    "sharec configs",
+    "config",
+    "configuration"
+  ],
   "devDependencies": {
     "sharec": "2.1.2"
   }
