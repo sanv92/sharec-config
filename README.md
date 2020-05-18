@@ -8,6 +8,6 @@ With **sharec-config** you can share and management configuration across project
 2. Install `sharec-config` as dependency:
 
 ```shell
-npm i --save-dev sharec-configs
+npm i --save-dev @sanv/sharec-config
 ```
 
