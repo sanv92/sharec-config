@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "sharec": "sharec",
     "commit": "npx git-cz",
     "prettier": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\""
   },
