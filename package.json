@@ -23,7 +23,15 @@
     "config",
     "configuration"
   ],
-  "devDependencies": {
-    "sharec": "2.1.2"
+  "devDependencies": {},
+  "dependencies": {
+    "sharec": "2.2.0"
+  },
+  "peerDependencies": {
+    "sharec": "2.2.*",
+    "eslint": "7.*",
+    "eslint-plugin-import": "2.16.*",
+    "eslint-plugin-prettier": "3.0.*",
+    "eslint-plugin-unicorn": "7.1.*"
   }
 }
