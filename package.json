@@ -8,6 +8,9 @@
   "scripts": {
     "postinstall": "sharec"
   },
+  "files": [
+    "configs"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SanderV1992/sharec-config.git"
