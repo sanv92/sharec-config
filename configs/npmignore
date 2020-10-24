@@ -153,6 +153,5 @@ bundle-analyzer-stats.json
 
 config
 coverage
-dist
 docker
 mock-server
